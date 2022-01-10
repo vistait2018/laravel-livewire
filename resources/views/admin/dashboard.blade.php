@@ -1,5 +1,4 @@
 <x-admin-layout>
-
 <!-- Content Header (Page header) -->
 <div class="content-header">
     <div class="container-fluid">
@@ -18,6 +17,9 @@
   </div>
   <!-- /.content-header -->
 
+  <x-utils.alert-component>
+      Hello there
+  </x-utils.alert-component>
   <!-- Main content -->
   <div class="content">
     <div class="container-fluid">
